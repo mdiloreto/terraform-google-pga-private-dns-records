@@ -1,1 +1,1 @@
-# terraform-google-pga-private-dns-records
+# terraform-gcp-pga-dns-config
