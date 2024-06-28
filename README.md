@@ -1,7 +1,7 @@
 
 ## Overview
 
-This module is designed to enable and configure Private Google Access (PGA) in a Google Cloud Virtual Private Cloud (VPC). By enabling Private Google Access, Compute Engine VMs without external Virtual IP (VIP) addresses can connect to Google APIs and services through their internal IP addresses.
+This module is designed to enable and configure Private Google Access (PGA) in a Google Cloud Virtual Private Cloud (VPC). By enabling Private Google Access, Compute Engine VMs without external Virtual IP (VIP) addresses can connect to Google APIs and services through their internal IP addresses. This will maintain external traffic to Google APIs and Services within the GCP Backbone.
 
 ## Table of Contents
 
