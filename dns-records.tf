@@ -1,4 +1,11 @@
-## Private Google Access configuration for the GKE Cluster Egress traffic configuration 
+terraform {
+  required_providers {
+    google = {
+      source  = "hashicorp/google"
+      version = ">= 3.0.0"
+    }
+  }
+}
 
 ######## Enable APIs 
 
