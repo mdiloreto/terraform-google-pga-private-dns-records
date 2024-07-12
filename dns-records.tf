@@ -110,7 +110,7 @@ module "run_cname_record" {
 module "googleapis_a_records" {
   source = "./modules/cloud_dns_zone_record"
   
-  name         = "googleapis.com."
+  name         = "private.googleapis.com."
   managed_zone = module.googleapis_zone.zone_name
   type         = "A"
   ttl          = 300
